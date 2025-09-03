@@ -1,5 +1,7 @@
+// config.js
 const config = {
-  API_BASE_URL: "http://localhost:5000/api"
+  RULES_API_URL: "http://localhost:5000/api/rules",
+  COMPLIANCE_API_URL: "http://localhost:5000/api/compliance"
 };
 
 export default config;
